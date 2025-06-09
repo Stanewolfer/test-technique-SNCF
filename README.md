@@ -82,7 +82,7 @@ mysql -u root -p -e "source backend/init.sql"
 ```
 2. Lancer le serveur PHP :
 ```bash
-cd backend
+cd mes-connaissances/backend
 php -S localhost:8000
 
 ```
@@ -95,7 +95,7 @@ http://localhost:8000/api/connaissances.php
 ### 3. 💻 Frontend
 
 ```bash
-cd frontend
+cd mes-connaissances/frontend
 npm install
 npm run dev
 ```
